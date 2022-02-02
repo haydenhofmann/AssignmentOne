@@ -13,7 +13,16 @@
 		8EF8F74825965AD4000850BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF8F74725965AD4000850BF /* Preview Assets.xcassets */; };
 		8EF8F75325965AD4000850BF /* Assignment_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75225965AD4000850BF /* Assignment_OneTests.swift */; };
 		8EF8F75E25965AD4000850BF /* Assignment_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */; };
+		DF3AB74F27AB093D00BE7F0A /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB74E27AB093D00BE7F0A /* AudioRecorder.swift */; };
+		DF3AB75127AB0A8800BE7F0A /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB75027AB0A8800BE7F0A /* RecorderView.swift */; };
+		DF3AB75327AB0BED00BE7F0A /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB75227AB0BED00BE7F0A /* RecordingsList.swift */; };
+		DF3AB75527AB0F8F00BE7F0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB75427AB0F8F00BE7F0A /* Extensions.swift */; };
+		DF3AB75727AB132400BE7F0A /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB75627AB132400BE7F0A /* RecordingDataModel.swift */; };
+		DF3AB75927AB13A600BE7F0A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB75827AB13A600BE7F0A /* Helper.swift */; };
 		DF58053B278CBCA200F7F57E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58053A278CBCA200F7F57E /* Profile.swift */; };
+		DFAC3BC227A10D7B00F14C6E /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC3BC127A10D7B00F14C6E /* Upload.swift */; };
+		DFAC3BC427A10ED300F14C6E /* ButtonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC3BC327A10ED300F14C6E /* ButtonList.swift */; };
+		DFAC3BC827A1120B00F14C6E /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC3BC727A1120B00F14C6E /* MoreInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +55,16 @@
 		8EF8F75925965AD4000850BF /* Assignment OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF8F75D25965AD4000850BF /* Assignment_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneUITests.swift; sourceTree = "<group>"; };
 		8EF8F75F25965AD4000850BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3AB74E27AB093D00BE7F0A /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		DF3AB75027AB0A8800BE7F0A /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		DF3AB75227AB0BED00BE7F0A /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
+		DF3AB75427AB0F8F00BE7F0A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF3AB75627AB132400BE7F0A /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		DF3AB75827AB13A600BE7F0A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		DF58053A278CBCA200F7F57E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DFAC3BC127A10D7B00F14C6E /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		DFAC3BC327A10ED300F14C6E /* ButtonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonList.swift; sourceTree = "<group>"; };
+		DFAC3BC727A1120B00F14C6E /* MoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +117,16 @@
 			children = (
 				8EF8F74025965AD1000850BF /* Assignment_OneApp.swift */,
 				8EF8F74225965AD1000850BF /* ContentView.swift */,
+				DFAC3BC127A10D7B00F14C6E /* Upload.swift */,
+				DF3AB75027AB0A8800BE7F0A /* RecorderView.swift */,
+				DF3AB75227AB0BED00BE7F0A /* RecordingsList.swift */,
+				DFAC3BC727A1120B00F14C6E /* MoreInfo.swift */,
+				DFAC3BC327A10ED300F14C6E /* ButtonList.swift */,
 				DF58053A278CBCA200F7F57E /* Profile.swift */,
+				DF3AB74E27AB093D00BE7F0A /* AudioRecorder.swift */,
+				DF3AB75827AB13A600BE7F0A /* Helper.swift */,
+				DF3AB75627AB132400BE7F0A /* RecordingDataModel.swift */,
+				DF3AB75427AB0F8F00BE7F0A /* Extensions.swift */,
 				8EF8F74425965AD4000850BF /* Assets.xcassets */,
 				8EF8F74925965AD4000850BF /* Info.plist */,
 				8EF8F74625965AD4000850BF /* Preview Content */,
@@ -262,9 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3AB75327AB0BED00BE7F0A /* RecordingsList.swift in Sources */,
+				DF3AB75727AB132400BE7F0A /* RecordingDataModel.swift in Sources */,
+				DFAC3BC427A10ED300F14C6E /* ButtonList.swift in Sources */,
+				DF3AB74F27AB093D00BE7F0A /* AudioRecorder.swift in Sources */,
+				DFAC3BC227A10D7B00F14C6E /* Upload.swift in Sources */,
+				DFAC3BC827A1120B00F14C6E /* MoreInfo.swift in Sources */,
+				DF3AB75527AB0F8F00BE7F0A /* Extensions.swift in Sources */,
 				8EF8F74325965AD1000850BF /* ContentView.swift in Sources */,
 				DF58053B278CBCA200F7F57E /* Profile.swift in Sources */,
+				DF3AB75127AB0A8800BE7F0A /* RecorderView.swift in Sources */,
 				8EF8F74125965AD1000850BF /* Assignment_OneApp.swift in Sources */,
+				DF3AB75927AB13A600BE7F0A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
